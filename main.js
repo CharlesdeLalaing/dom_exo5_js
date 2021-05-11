@@ -21,3 +21,17 @@ console.log(exo2);
 let exo3 = document.getElementsByClassName('tartine')[1]
 console.log('exo3:');
 console.log(exo3);
+
+//correction
+
+//exo1
+let ex1 = document.querySelector('p.tartine').innerText;
+console.log((ex1));
+
+//exo2
+let ex2 = document.querySelector('p#toast').innerText;
+console.log(ex2);
+
+//exo3
+let ex3 = document.querySelectorAll('.tartine')[1];
+console.log(ex3);
